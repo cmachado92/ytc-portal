@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import LoginButton from "../components/LoginButton";
 import imgLoginBanner from "../assets/login-banner.png";
 import imgLogo from "../assets/ytc-logo.png";
 
@@ -15,16 +16,7 @@ const Login = () => {
                     <div
                       className="flex-grow-1 bg-login-image"
                       style={{ backgroundImage: `url(${imgLoginBanner})` }}
-                    >
-                      {/* <img
-                        id="banner"
-                        width="490"
-                        heights="568"
-                        src={imgLoginBanner}
-                        alt="ytc young girl dancing"
-                        style={{ objectFit: "cover" }}
-                      /> */}
-                    </div>
+                    ></div>
                   </div>
                   <div className="col-lg-6">
                     <div className="p-5">
@@ -84,14 +76,7 @@ const Login = () => {
                             </div>
                           </div>
                         </div>
-                        <a
-                          className="btn btn-primary d-block btn-user w-100"
-                          role="button"
-                          style={{ background: "red" }}
-                          href="profile.html"
-                        >
-                          Login
-                        </a>
+                        <LoginButton />
                       </form>
                     </div>
                   </div>
