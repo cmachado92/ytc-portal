@@ -1,3 +1,5 @@
+import * as bootstrap from "bootstrap";
+window.bootstrap = bootstrap;
 (function () {
   "use strict"; // Start of use strict
 
