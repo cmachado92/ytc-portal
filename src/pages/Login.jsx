@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import LoginButton from "../components/LoginButton";
 import imgLoginBanner from "../assets/login-banner.png";
 import imgLogo from "../assets/ytc-logo.png";
 
@@ -75,14 +76,7 @@ const Login = () => {
                             </div>
                           </div>
                         </div>
-                        <a
-                          className="btn btn-primary d-block btn-user w-100"
-                          role="button"
-                          style={{ background: "red" }}
-                          href="profile.html"
-                        >
-                          Login
-                        </a>
+                        <LoginButton />
                       </form>
                     </div>
                   </div>
