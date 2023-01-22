@@ -15,16 +15,7 @@ const Login = () => {
                     <div
                       className="flex-grow-1 bg-login-image"
                       style={{ backgroundImage: `url(${imgLoginBanner})` }}
-                    >
-                      {/* <img
-                        id="banner"
-                        width="490"
-                        heights="568"
-                        src={imgLoginBanner}
-                        alt="ytc young girl dancing"
-                        style={{ objectFit: "cover" }}
-                      /> */}
-                    </div>
+                    ></div>
                   </div>
                   <div className="col-lg-6">
                     <div className="p-5">
