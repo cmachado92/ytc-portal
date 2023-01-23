@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import LoginButton from "../components/UI/Login/LoginButton";
-import imgLoginBanner from "../assets/login-banner.png";
-import imgLogo from "../assets/ytc-logo.png";
+import imgLoginBanner from "../assets/img/login-banner.png";
+import imgLogo from "../assets/img/ytc-logo.png";
 
 const Login = () => {
   return (
