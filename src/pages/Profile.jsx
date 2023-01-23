@@ -42,7 +42,7 @@ const Login = () => {
                         aria-valuenow="6"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style="width: 6%;"
+                        style={{ width: "6%" }}
                       >
                         <span class="visually-hidden">6%</span>
                       </div>
@@ -56,7 +56,7 @@ const Login = () => {
                         aria-valuenow="64"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style="width: 64%;"
+                        style={{ width: "64%" }}
                       >
                         <span class="visually-hidden">64%</span>
                       </div>
@@ -70,7 +70,7 @@ const Login = () => {
                         aria-valuenow="3"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style="width: 3%;"
+                        style={{ width: "3%" }}
                       >
                         <span class="visually-hidden">3%</span>
                       </div>
@@ -84,7 +84,7 @@ const Login = () => {
                         aria-valuenow="17"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style="width: 17%;"
+                        style={{ width: "17%" }}
                       >
                         <span class="visually-hidden">17%</span>
                       </div>
@@ -106,7 +106,7 @@ const Login = () => {
                     <div class="card-body">
                       <p class="m-0">
                         <br />
-                        <span style="color: rgb(0, 0, 0);">
+                        <span style={{ color: "rgb(0, 0, 0)" }}>
                           From they fine john he give of rich he. They age and
                           draw mrs like. Improving end distrusts may instantly
                           was household applauded incommode. Why kept very ever
