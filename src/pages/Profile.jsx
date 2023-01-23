@@ -3,11 +3,11 @@ import React from "react";
 const Login = () => {
   return (
     <div id="wrapper">
-      {/* <div id="wrapper">
+      <div id="wrapper">
        
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
-                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                {/* <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
                         <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
                             <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..."><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
@@ -33,7 +33,7 @@ const Login = () => {
                             </li>
                         </ul>
                     </div>
-                </nav>
+                </nav> */}
                 <div class="container-fluid">
                     <h3 class="text-dark mb-4">Profile</h3>
                     <div class="row mb-3">
@@ -116,68 +116,68 @@ const Login = () => {
                                                 <div><label class="form-label" for="username"><strong>Full Name</strong></label>
                                                     <div class="row">
                                                         <div class="col">
-                                                            <div class="mb-3"><input class="form-control" type="text" id="first_name" placeholder="First" name="first_name"></div>
+                                                            <div class="mb-3"><input class="form-control" type="text" id="first_name" placeholder="First" name="first_name"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><input class="form-control" type="text" id="middle_name" placeholder="Middle" name="last_name"></div>
+                                                            <div class="mb-3"><input class="form-control" type="text" id="middle_name" placeholder="Middle" name="last_name"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><input class="form-control" type="text" id="last_name-1" placeholder="Last" name="last_name"></div>
+                                                            <div class="mb-3"><input class="form-control" type="text" id="last_name-1" placeholder="Last" name="last_name"></input></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div><label class="form-label" for="username"><strong>Traditional Name</strong></label>
                                                     <div class="row">
                                                         <div class="col">
-                                                            <div class="mb-3"><input class="form-control" type="text" id="tfirst_name" placeholder="First" name="tfirst_name"></div>
+                                                            <div class="mb-3"><input class="form-control" type="text" id="tfirst_name" placeholder="First" name="tfirst_name"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><input class="form-control" type="text" id="tmiddle_name" placeholder="Middle" name="tmiddle_name"></div>
+                                                            <div class="mb-3"><input class="form-control" type="text" id="tmiddle_name" placeholder="Middle" name="tmiddle_name"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><input class="form-control" type="text" id="tlast_name" placeholder="Last" name="tlast_name"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Maiden Name</strong></label><input class="form-control" type="text" id="maiden_name" placeholder="Maiden" name="maiden_name"></div>
-                                                        </div>
-                                                        <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Goes By</strong></label><input class="form-control" type="text" id="goesby_name" placeholder="Goes By" name="goesby_name"></div>
+                                                            <div class="mb-3"><input class="form-control" type="text" id="tlast_name" placeholder="Last" name="tlast_name"></input></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div>
                                                     <div class="row">
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Birthplace</strong></label><input class="form-control" type="text" id="birthplace" placeholder="" name="birthplace"></div>
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Maiden Name</strong></label><input class="form-control" type="text" id="maiden_name" placeholder="Maiden" name="maiden_name"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Birthdate</strong></label><input class="form-control" id="birthdate" placeholder="" name="birthdate"></div>
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Goes By</strong></label><input class="form-control" type="text" id="goesby_name" placeholder="Goes By" name="goesby_name"></input></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Birthplace</strong></label><input class="form-control" type="text" id="birthplace" placeholder="" name="birthplace"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Age</strong></label><input class="form-control" type="number" id="age" placeholder="" name="age"></div>
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Birthdate</strong></label><input class="form-control" id="birthdate" placeholder="" name="birthdate"></input></div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Age</strong></label><input class="form-control" type="number" id="age" placeholder="" name="age"></input></div>
                                                         </div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Primary Language</strong></label><input class="form-control" type="text" id="planguage" placeholder="" name="planguage"></div>
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Primary Language</strong></label><input class="form-control" type="text" id="planguage" placeholder="" name="planguage"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Marital Status</strong></label><input class="form-control" type="text" id="marital_status" placeholder="" name="marital_status"></div>
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Marital Status</strong></label><input class="form-control" type="text" id="marital_status" placeholder="" name="marital_status"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" id="generation" name="generation"><strong>Generation</strong></label><input class="form-control" type="text" id="birth_place-8" placeholder="" name="birth_place"></div>
+                                                            <div class="mb-3"><label class="form-label" id="generation" name="generation"><strong>Generation</strong></label><input class="form-control" type="text" id="birth_place-8" placeholder="" name="birth_place"></input></div>
                                                         </div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Cultural Origin</strong></label><input class="form-control" type="text" id="cultural_orig" placeholder="" name="cultural_orig"></div>
+                                                            <div class="mb-3"><label class="form-label" for="username"><strong>Cultural Origin</strong></label><input class="form-control" type="text" id="cultural_orig" placeholder="" name="cultural_orig"></input></div>
                                                         </div>
                                                         <div class="col">
-                                                            <div class="mb-3"><label class="form-label" id="cultural_role" name="cultural_role"><strong>Cultural Role</strong></label><input class="form-control" type="text" id="birth_place-4" placeholder="" name="birth_place"></div>
+                                                            <div class="mb-3"><label class="form-label" id="cultural_role" name="cultural_role"><strong>Cultural Role</strong></label><input class="form-control" type="text" id="birth_place-4" placeholder="" name="birth_place"></input></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -191,13 +191,13 @@ const Login = () => {
                                         </div>
                                         <div class="card-body">
                                             <form>
-                                                <div class="mb-3"><label class="form-label" for="address"><strong>Address</strong></label><input class="form-control" type="text" id="address" placeholder="Sunset Blvd, 38" name="address"></div>
+                                                <div class="mb-3"><label class="form-label" for="address"><strong>Address</strong></label><input class="form-control" type="text" id="address" placeholder="Sunset Blvd, 38" name="address"></input></div>
                                                 <div class="row">
                                                     <div class="col">
-                                                        <div class="mb-3"><label class="form-label" for="city"><strong>City</strong></label><input class="form-control" type="text" id="city" placeholder="Los Angeles" name="city"></div>
+                                                        <div class="mb-3"><label class="form-label" for="city"><strong>City</strong></label><input class="form-control" type="text" id="city" placeholder="Los Angeles" name="city"></input></div>
                                                     </div>
                                                     <div class="col">
-                                                        <div class="mb-3"><label class="form-label" for="country"><strong>Country</strong></label><input class="form-control" type="text" id="country" placeholder="USA" name="country"></div>
+                                                        <div class="mb-3"><label class="form-label" for="country"><strong>Country</strong></label><input class="form-control" type="text" id="country" placeholder="USA" name="country"></input></div>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3"></div>
@@ -217,21 +217,21 @@ const Login = () => {
                                 <div class="col-md-6 col-xxl-3">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>Oficial Band</strong></label><input class="form-control" type="text" id="oficial_band" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>Oficial Band</strong></label><input class="form-control" type="text" id="oficial_band" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-md-6 col-xxl-2">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>Member ID</strong></label><input class="form-control" type="text" id="oficial_band-1" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>Member ID</strong></label><input class="form-control" type="text" id="oficial_band-1" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-md-6 col-xxl-2">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>Member Status</strong></label><input class="form-control" type="text" id="oficial_band-2" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>Member Status</strong></label><input class="form-control" type="text" id="oficial_band-2" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
@@ -239,20 +239,20 @@ const Login = () => {
                                     <form>
                                         <div class="mb-3">
                                             <div class="mb-3"><label class="form-label" for="city"><strong>Voter</strong></label>
-                                                <div class="form-check form-switch"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label"></label></div>
+                                                <div class="form-check form-switch"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label"></label></input></div>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-xxl-2">
                                     <div class="mb-3"><label class="form-label" for="city"><strong>Social Assistance</strong></label>
-                                        <div class="form-check form-switch"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3"></label></div>
+                                        <div class="form-check form-switch"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3"></label></input></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xxl-2">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>Treaty Number</strong></label><input class="form-control" type="text" id="oficial_band-15" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>Treaty Number</strong></label><input class="form-control" type="text" id="oficial_band-15" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
@@ -261,28 +261,28 @@ const Login = () => {
                                 <div class="col-md-6 col-xxl-3">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>SSN</strong></label><input class="form-control" type="text" id="oficial_band-5" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>SSN</strong></label><input class="form-control" type="text" id="oficial_band-5" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-md-6 col-xxl-2">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>Receive PCD</strong>&nbsp;By</label><input class="form-control" type="text" id="oficial_band-6" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>Receive PCD</strong>&nbsp;By</label><input class="form-control" type="text" id="oficial_band-6" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-md-6 col-xxl-2">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>PCD</strong>&nbsp;Custom Group</label><input class="form-control" type="text" id="oficial_band-7" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>PCD</strong>&nbsp;Custom Group</label><input class="form-control" type="text" id="oficial_band-7" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-md-6 col-xxl-2">
                                     <form>
                                         <div class="mb-3">
-                                            <div class="mb-3"><label class="form-label" for="city"><strong>PCD Register Date</strong></label><input class="form-control" type="text" id="oficial_band-9" placeholder="" name="city"></div>
+                                            <div class="mb-3"><label class="form-label" for="city"><strong>PCD Register Date</strong></label><input class="form-control" type="text" id="oficial_band-9" placeholder="" name="city"></input></div>
                                         </div>
                                     </form>
                                 </div>
@@ -298,7 +298,7 @@ const Login = () => {
                 </div>
             </footer>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
-    </div> */}
+    </div>
     </div>
   );
 };
