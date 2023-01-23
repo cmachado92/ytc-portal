@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import LoginButton from "../components/LoginButton";
+import LoginButton from "../components/UI/Login/LoginButton";
 import imgLoginBanner from "../assets/login-banner.png";
 import imgLogo from "../assets/ytc-logo.png";
 
