@@ -5,95 +5,95 @@ const Login = () => {
   return (
     <div id="wrapper">
       <SideBar />
-      <div class="d-flex flex-column" id="content-wrapper">
+      <div className="d-flex flex-column" id="content-wrapper">
         <div id="content">
           <NavBar />
-          <div class="container-fluid">
-            <h3 class="text-dark mb-4">Profile</h3>
-            <div class="row mb-3">
-              <div class="col-lg-4">
-                <div class="card mb-3">
-                  <div class="card-body text-center shadow">
+          <div className="container-fluid">
+            <h3 className="text-dark mb-4">Profile</h3>
+            <div className="row mb-3">
+              <div className="col-lg-4">
+                <div className="card mb-3">
+                  <div className="card-body text-center shadow">
                     <img
-                      class="rounded-circle mb-3 mt-4"
+                      className="rounded-circle mb-3 mt-4"
                       src="assets/img/sample-person.png"
                       width="160"
                       height="160"
                       alt="profileImage"
                     />
-                    <div class="mb-3">
-                      <button class="btn btn-primary btn-sm" type="button">
+                    <div className="mb-3">
+                      <button className="btn btn-primary btn-sm" type="button">
                         Change Photo
                       </button>
                     </div>
                   </div>
                 </div>
-                <div class="card shadow mb-4">
-                  <div class="card-header py-3">
-                    <h6 class="text-primary fw-bold m-0">Lineage</h6>
+                <div className="card shadow mb-4">
+                  <div className="card-header py-3">
+                    <h6 className="text-primary fw-bold m-0">Lineage</h6>
                   </div>
-                  <div class="card-body">
-                    <h4 class="small fw-bold">
-                      Canada<span class="float-end">6%</span>
+                  <div className="card-body">
+                    <h4 className="small fw-bold">
+                      Canada<span className="float-end">6%</span>
                     </h4>
-                    <div class="progress progress-sm mb-3">
+                    <div className="progress progress-sm mb-3">
                       <div
-                        class="progress-bar bg-danger"
+                        className="progress-bar bg-danger"
                         aria-valuenow="6"
                         aria-valuemin="0"
                         aria-valuemax="100"
                         style={{ width: "6%" }}
                       >
-                        <span class="visually-hidden">6%</span>
+                        <span className="visually-hidden">6%</span>
                       </div>
                     </div>
-                    <h4 class="small fw-bold">
-                      Yellow Head<span class="float-end">64%</span>
+                    <h4 className="small fw-bold">
+                      Yellow Head<span className="float-end">64%</span>
                     </h4>
-                    <div class="progress progress-sm mb-3">
+                    <div className="progress progress-sm mb-3">
                       <div
-                        class="progress-bar bg-warning"
+                        className="progress-bar bg-warning"
                         aria-valuenow="64"
                         aria-valuemin="0"
                         aria-valuemax="100"
                         style={{ width: "64%" }}
                       >
-                        <span class="visually-hidden">64%</span>
+                        <span className="visually-hidden">64%</span>
                       </div>
                     </div>
-                    <h4 class="small fw-bold">
-                      USA<span class="float-end">3%</span>
+                    <h4 className="small fw-bold">
+                      USA<span className="float-end">3%</span>
                     </h4>
-                    <div class="progress progress-sm mb-3">
+                    <div className="progress progress-sm mb-3">
                       <div
-                        class="progress-bar bg-primary"
+                        className="progress-bar bg-primary"
                         aria-valuenow="3"
                         aria-valuemin="0"
                         aria-valuemax="100"
                         style={{ width: "3%" }}
                       >
-                        <span class="visually-hidden">3%</span>
+                        <span className="visually-hidden">3%</span>
                       </div>
                     </div>
-                    <h4 class="small fw-bold">
-                      Africa<span class="float-end">17%</span>
+                    <h4 className="small fw-bold">
+                      Africa<span className="float-end">17%</span>
                     </h4>
-                    <div class="progress progress-sm mb-3">
+                    <div className="progress progress-sm mb-3">
                       <div
-                        class="progress-bar bg-info"
+                        className="progress-bar bg-info"
                         aria-valuenow="17"
                         aria-valuemin="0"
                         aria-valuemax="100"
                         style={{ width: "17%" }}
                       >
-                        <span class="visually-hidden">17%</span>
+                        <span className="visually-hidden">17%</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="shadow card">
+                <div className="shadow card">
                   <a
-                    class="btn btn-link text-start card-header fw-bold"
+                    className="btn btn-link text-start card-header fw-bold"
                     data-bs-toggle="collapse"
                     aria-expanded="true"
                     aria-controls="collapse-4"
@@ -102,9 +102,9 @@ const Login = () => {
                   >
                     Personal Annotations
                   </a>
-                  <div class="collapse show" id="collapse-4">
-                    <div class="card-body">
-                      <p class="m-0">
+                  <div className="collapse show" id="collapse-4">
+                    <div className="card-body">
+                      <p className="m-0">
                         <br />
                         <span style={{ color: "rgb(0, 0, 0)" }}>
                           From they fine john he give of rich he. They age and
@@ -122,68 +122,68 @@ const Login = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-8">
-                <div class="row mb-3 d-none">
-                  <div class="col">
-                    <div class="card text-white bg-primary shadow">
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col">
-                            <p class="m-0">Peformance</p>
-                            <p class="m-0">
+              <div className="col-lg-8">
+                <div className="row mb-3 d-none">
+                  <div className="col">
+                    <div className="card text-white bg-primary shadow">
+                      <div className="card-body">
+                        <div className="row mb-2">
+                          <div className="col">
+                            <p className="m-0">Peformance</p>
+                            <p className="m-0">
                               <strong>65.2%</strong>
                             </p>
                           </div>
-                          <div class="col-auto">
-                            <i class="fas fa-rocket fa-2x"></i>
+                          <div className="col-auto">
+                            <i className="fas fa-rocket fa-2x"></i>
                           </div>
                         </div>
-                        <p class="text-white-50 small m-0">
-                          <i class="fas fa-arrow-up"></i>&nbsp;5% since last
+                        <p className="text-white-50 small m-0">
+                          <i className="fas fa-arrow-up"></i>&nbsp;5% since last
                           month
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card text-white bg-success shadow">
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col">
-                            <p class="m-0">Peformance</p>
-                            <p class="m-0">
+                  <div className="col">
+                    <div className="card text-white bg-success shadow">
+                      <div className="card-body">
+                        <div className="row mb-2">
+                          <div className="col">
+                            <p className="m-0">Peformance</p>
+                            <p className="m-0">
                               <strong>65.2%</strong>
                             </p>
                           </div>
-                          <div class="col-auto">
-                            <i class="fas fa-rocket fa-2x"></i>
+                          <div className="col-auto">
+                            <i className="fas fa-rocket fa-2x"></i>
                           </div>
                         </div>
-                        <p class="text-white-50 small m-0">
-                          <i class="fas fa-arrow-up"></i>&nbsp;5% since last
+                        <p className="text-white-50 small m-0">
+                          <i className="fas fa-arrow-up"></i>&nbsp;5% since last
                           month
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="card shadow mb-3">
-                      <div class="card-header py-3">
-                        <p class="text-primary m-0 fw-bold">Who I am</p>
+                <div className="row">
+                  <div className="col">
+                    <div className="card shadow mb-3">
+                      <div className="card-header py-3">
+                        <p className="text-primary m-0 fw-bold">Who I am</p>
                       </div>
-                      <div class="card-body">
+                      <div className="card-body">
                         <form>
                           <div>
-                            <label class="form-label" for="username">
+                            <label className="form-label" for="username">
                               <strong>Full Name</strong>
                             </label>
-                            <div class="row">
-                              <div class="col">
-                                <div class="mb-3">
+                            <div className="row">
+                              <div className="col">
+                                <div className="mb-3">
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="first_name"
                                     placeholder="First"
@@ -191,10 +191,10 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
+                              <div className="col">
+                                <div className="mb-3">
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="middle_name"
                                     placeholder="Middle"
@@ -202,10 +202,10 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
+                              <div className="col">
+                                <div className="mb-3">
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="last_name-1"
                                     placeholder="Last"
@@ -216,14 +216,14 @@ const Login = () => {
                             </div>
                           </div>
                           <div>
-                            <label class="form-label" for="username">
+                            <label className="form-label" for="username">
                               <strong>Traditional Name</strong>
                             </label>
-                            <div class="row">
-                              <div class="col">
-                                <div class="mb-3">
+                            <div className="row">
+                              <div className="col">
+                                <div className="mb-3">
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="tfirst_name"
                                     placeholder="First"
@@ -231,10 +231,10 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
+                              <div className="col">
+                                <div className="mb-3">
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="tmiddle_name"
                                     placeholder="Middle"
@@ -242,10 +242,10 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
+                              <div className="col">
+                                <div className="mb-3">
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="tlast_name"
                                     placeholder="Last"
@@ -256,14 +256,14 @@ const Login = () => {
                             </div>
                           </div>
                           <div>
-                            <div class="row">
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                            <div className="row">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Maiden Name</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="maiden_name"
                                     placeholder="Maiden"
@@ -271,13 +271,13 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Goes By</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="goesby_name"
                                     placeholder="Goes By"
@@ -288,14 +288,14 @@ const Login = () => {
                             </div>
                           </div>
                           <div>
-                            <div class="row">
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                            <div className="row">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Birthplace</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="birthplace"
                                     placeholder=""
@@ -303,26 +303,26 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Birthdate</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     id="birthdate"
                                     placeholder=""
                                     name="birthdate"
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Age</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="number"
                                     id="age"
                                     placeholder=""
@@ -331,14 +331,14 @@ const Login = () => {
                                 </div>
                               </div>
                             </div>
-                            <div class="row">
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                            <div className="row">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Primary Language</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="planguage"
                                     placeholder=""
@@ -346,13 +346,13 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Marital Status</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="marital_status"
                                     placeholder=""
@@ -360,17 +360,17 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
+                              <div className="col">
+                                <div className="mb-3">
                                   <label
-                                    class="form-label"
+                                    className="form-label"
                                     id="generation"
                                     name="generation"
                                   >
                                     <strong>Generation</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="birth_place-8"
                                     placeholder=""
@@ -379,14 +379,14 @@ const Login = () => {
                                 </div>
                               </div>
                             </div>
-                            <div class="row">
-                              <div class="col">
-                                <div class="mb-3">
-                                  <label class="form-label" for="username">
+                            <div className="row">
+                              <div className="col">
+                                <div className="mb-3">
+                                  <label className="form-label" for="username">
                                     <strong>Cultural Origin</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="cultural_orig"
                                     placeholder=""
@@ -394,17 +394,17 @@ const Login = () => {
                                   ></input>
                                 </div>
                               </div>
-                              <div class="col">
-                                <div class="mb-3">
+                              <div className="col">
+                                <div className="mb-3">
                                   <label
-                                    class="form-label"
+                                    className="form-label"
                                     id="cultural_role"
                                     name="cultural_role"
                                   >
                                     <strong>Cultural Role</strong>
                                   </label>
                                   <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="text"
                                     id="birth_place-4"
                                     placeholder=""
@@ -414,36 +414,36 @@ const Login = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="mb-3"></div>
+                          <div className="mb-3"></div>
                         </form>
                       </div>
                     </div>
-                    <div class="card shadow">
-                      <div class="card-header py-3">
-                        <p class="text-primary m-0 fw-bold">About me</p>
+                    <div className="card shadow">
+                      <div className="card-header py-3">
+                        <p className="text-primary m-0 fw-bold">About me</p>
                       </div>
-                      <div class="card-body">
+                      <div className="card-body">
                         <form>
-                          <div class="mb-3">
-                            <label class="form-label" for="address">
+                          <div className="mb-3">
+                            <label className="form-label" for="address">
                               <strong>Address</strong>
                             </label>
                             <input
-                              class="form-control"
+                              className="form-control"
                               type="text"
                               id="address"
                               placeholder="Sunset Blvd, 38"
                               name="address"
                             ></input>
                           </div>
-                          <div class="row">
-                            <div class="col">
-                              <div class="mb-3">
-                                <label class="form-label" for="city">
+                          <div className="row">
+                            <div className="col">
+                              <div className="mb-3">
+                                <label className="form-label" for="city">
                                   <strong>City</strong>
                                 </label>
                                 <input
-                                  class="form-control"
+                                  className="form-control"
                                   type="text"
                                   id="city"
                                   placeholder="Los Angeles"
@@ -451,13 +451,13 @@ const Login = () => {
                                 ></input>
                               </div>
                             </div>
-                            <div class="col">
-                              <div class="mb-3">
-                                <label class="form-label" for="country">
+                            <div className="col">
+                              <div className="mb-3">
+                                <label className="form-label" for="country">
                                   <strong>Country</strong>
                                 </label>
                                 <input
-                                  class="form-control"
+                                  className="form-control"
                                   type="text"
                                   id="country"
                                   placeholder="USA"
@@ -466,7 +466,7 @@ const Login = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="mb-3"></div>
+                          <div className="mb-3"></div>
                         </form>
                       </div>
                     </div>
@@ -474,21 +474,21 @@ const Login = () => {
                 </div>
               </div>
             </div>
-            <div class="card shadow mb-5">
-              <div class="card-header py-3">
-                <p class="text-primary m-0 fw-bold">Membership Details</p>
+            <div className="card shadow mb-5">
+              <div className="card-header py-3">
+                <p className="text-primary m-0 fw-bold">Membership Details</p>
               </div>
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-6 col-xxl-3">
+              <div className="card-body">
+                <div className="row">
+                  <div className="col-md-6 col-xxl-3">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>Oficial Band</strong>
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band"
                             placeholder=""
@@ -498,15 +498,15 @@ const Login = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="col-md-6 col-xxl-2">
+                  <div className="col-md-6 col-xxl-2">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>Member ID</strong>
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-1"
                             placeholder=""
@@ -516,15 +516,15 @@ const Login = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="col-md-6 col-xxl-2">
+                  <div className="col-md-6 col-xxl-2">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>Member Status</strong>
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-2"
                             placeholder=""
@@ -534,54 +534,54 @@ const Login = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="col-md-6 col-xxl-1 offset-xxl-0">
+                  <div className="col-md-6 col-xxl-1 offset-xxl-0">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>Voter</strong>
                           </label>
-                          <div class="form-check form-switch">
+                          <div className="form-check form-switch">
                             <input
-                              class="form-check-input"
+                              className="form-check-input"
                               type="checkbox"
                               id="formCheck-2"
                             >
-                              <label class="form-check-label"></label>
+                              <label className="form-check-label"></label>
                             </input>
                           </div>
                         </div>
                       </div>
                     </form>
                   </div>
-                  <div class="col-xxl-2">
-                    <div class="mb-3">
-                      <label class="form-label" for="city">
+                  <div className="col-xxl-2">
+                    <div className="mb-3">
+                      <label className="form-label" for="city">
                         <strong>Social Assistance</strong>
                       </label>
-                      <div class="form-check form-switch">
+                      <div className="form-check form-switch">
                         <input
-                          class="form-check-input"
+                          className="form-check-input"
                           type="checkbox"
                           id="formCheck-3"
                         >
                           <label
-                            class="form-check-label"
+                            className="form-check-label"
                             for="formCheck-3"
                           ></label>
                         </input>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 col-xxl-2">
+                  <div className="col-md-6 col-xxl-2">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>Treaty Number</strong>
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-15"
                             placeholder=""
@@ -592,16 +592,16 @@ const Login = () => {
                     </form>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6 col-xxl-3">
+                <div className="row">
+                  <div className="col-md-6 col-xxl-3">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>SSN</strong>
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-5"
                             placeholder=""
@@ -611,15 +611,15 @@ const Login = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="col-md-6 col-xxl-2">
+                  <div className="col-md-6 col-xxl-2">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>Receive PCD</strong>&nbsp;By
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-6"
                             placeholder=""
@@ -629,15 +629,15 @@ const Login = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="col-md-6 col-xxl-2">
+                  <div className="col-md-6 col-xxl-2">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>PCD</strong>&nbsp;Custom Group
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-7"
                             placeholder=""
@@ -647,15 +647,15 @@ const Login = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="col-md-6 col-xxl-2">
+                  <div className="col-md-6 col-xxl-2">
                     <form>
-                      <div class="mb-3">
-                        <div class="mb-3">
-                          <label class="form-label" for="city">
+                      <div className="mb-3">
+                        <div className="mb-3">
+                          <label className="form-label" for="city">
                             <strong>PCD Register Date</strong>
                           </label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             id="oficial_band-9"
                             placeholder=""
@@ -666,8 +666,8 @@ const Login = () => {
                     </form>
                   </div>
                 </div>
-                <div class="mb-3">
-                  <button class="btn btn-primary btn-sm" type="submit">
+                <div className="mb-3">
+                  <button className="btn btn-primary btn-sm" type="submit">
                     Save Settings
                   </button>
                 </div>
@@ -675,16 +675,16 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <footer class="bg-white sticky-footer">
-          <div class="container my-auto">
-            <div class="text-center my-auto copyright">
+        <footer className="bg-white sticky-footer">
+          <div className="container my-auto">
+            <div className="text-center my-auto copyright">
               <span>Copyright © YTC 2023</span>
             </div>
           </div>
         </footer>
       </div>
-      <a class="border rounded d-inline scroll-to-top" href="#page-top">
-        <i class="fas fa-angle-up"></i>
+      <a className="border rounded d-inline scroll-to-top" href="#page-top">
+        <i className="fas fa-angle-up"></i>
       </a>
     </div>
   );

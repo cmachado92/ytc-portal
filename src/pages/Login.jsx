@@ -46,30 +46,30 @@ const Login = () => {
                             aria-describedby="userHelp"
                             placeholder="Enter username"
                             name="email"
-                            autofocus
+                            autoFocus
                           />
                         </div>
-                        <div class="mb-3">
+                        <div className="mb-3">
                           <input
                             id="inputPassword"
-                            class="form-control form-control-user"
+                            className="form-control form-control-user"
                             type="password"
                             placeholder="Password"
                             name="password"
                             required
                           />
                         </div>
-                        <div class="mb-3">
-                          <div class="custom-control custom-checkbox small">
-                            <div class="form-check">
+                        <div className="mb-3">
+                          <div className="custom-control custom-checkbox small">
+                            <div className="form-check">
                               <input
                                 id="formCheck-1"
-                                class="form-check-input custom-control-input"
+                                className="form-check-input custom-control-input"
                                 type="checkbox"
                               />
                               <label
-                                class="form-check-label custom-control-label"
-                                for="formCheck-1"
+                                className="form-check-label custom-control-label"
+                                htmlFor="formCheck-1"
                               >
                                 Remember Me
                               </label>
