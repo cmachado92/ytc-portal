@@ -1,10 +1,18 @@
 import "./App.css";
 import Login from "./pages/Login";
+import Profile from "./pages/Profile";
+import { ReactDOM } from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
