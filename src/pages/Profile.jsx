@@ -176,7 +176,7 @@ const Login = () => {
                       <div className="card-body">
                         <form>
                           <div>
-                            <label className="form-label" for="username">
+                            <label className="form-label" htmlFor="username">
                               <strong>Full Name</strong>
                             </label>
                             <div className="row">
@@ -216,7 +216,7 @@ const Login = () => {
                             </div>
                           </div>
                           <div>
-                            <label className="form-label" for="username">
+                            <label className="form-label" htmlFor="username">
                               <strong>Traditional Name</strong>
                             </label>
                             <div className="row">
@@ -259,7 +259,10 @@ const Login = () => {
                             <div className="row">
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Maiden Name</strong>
                                   </label>
                                   <input
@@ -273,7 +276,10 @@ const Login = () => {
                               </div>
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Goes By</strong>
                                   </label>
                                   <input
@@ -291,7 +297,10 @@ const Login = () => {
                             <div className="row">
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Birthplace</strong>
                                   </label>
                                   <input
@@ -305,7 +314,10 @@ const Login = () => {
                               </div>
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Birthdate</strong>
                                   </label>
                                   <input
@@ -318,7 +330,10 @@ const Login = () => {
                               </div>
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Age</strong>
                                   </label>
                                   <input
@@ -334,7 +349,10 @@ const Login = () => {
                             <div className="row">
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Primary Language</strong>
                                   </label>
                                   <input
@@ -348,7 +366,10 @@ const Login = () => {
                               </div>
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Marital Status</strong>
                                   </label>
                                   <input
@@ -382,7 +403,10 @@ const Login = () => {
                             <div className="row">
                               <div className="col">
                                 <div className="mb-3">
-                                  <label className="form-label" for="username">
+                                  <label
+                                    className="form-label"
+                                    htmlFor="username"
+                                  >
                                     <strong>Cultural Origin</strong>
                                   </label>
                                   <input
@@ -425,7 +449,7 @@ const Login = () => {
                       <div className="card-body">
                         <form>
                           <div className="mb-3">
-                            <label className="form-label" for="address">
+                            <label className="form-label" htmlFor="address">
                               <strong>Address</strong>
                             </label>
                             <input
@@ -439,7 +463,7 @@ const Login = () => {
                           <div className="row">
                             <div className="col">
                               <div className="mb-3">
-                                <label className="form-label" for="city">
+                                <label className="form-label" htmlFor="city">
                                   <strong>City</strong>
                                 </label>
                                 <input
@@ -453,7 +477,7 @@ const Login = () => {
                             </div>
                             <div className="col">
                               <div className="mb-3">
-                                <label className="form-label" for="country">
+                                <label className="form-label" htmlFor="country">
                                   <strong>Country</strong>
                                 </label>
                                 <input
@@ -484,7 +508,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>Oficial Band</strong>
                           </label>
                           <input
@@ -502,7 +526,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>Member ID</strong>
                           </label>
                           <input
@@ -520,7 +544,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>Member Status</strong>
                           </label>
                           <input
@@ -538,17 +562,17 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>Voter</strong>
                           </label>
                           <div className="form-check form-switch">
-                            <input
+                            {/* <input
                               className="form-check-input"
                               type="checkbox"
                               id="formCheck-2"
                             >
                               <label className="form-check-label"></label>
-                            </input>
+                            </input> */}
                           </div>
                         </div>
                       </div>
@@ -556,20 +580,20 @@ const Login = () => {
                   </div>
                   <div className="col-xxl-2">
                     <div className="mb-3">
-                      <label className="form-label" for="city">
+                      <label className="form-label" htmlFor="city">
                         <strong>Social Assistance</strong>
                       </label>
                       <div className="form-check form-switch">
-                        <input
+                        {/* <input
                           className="form-check-input"
                           type="checkbox"
                           id="formCheck-3"
                         >
                           <label
                             className="form-check-label"
-                            for="formCheck-3"
+                            htmlFor="formCheck-3"
                           ></label>
-                        </input>
+                        </input> */}
                       </div>
                     </div>
                   </div>
@@ -577,7 +601,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>Treaty Number</strong>
                           </label>
                           <input
@@ -597,7 +621,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>SSN</strong>
                           </label>
                           <input
@@ -615,7 +639,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>Receive PCD</strong>&nbsp;By
                           </label>
                           <input
@@ -633,7 +657,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>PCD</strong>&nbsp;Custom Group
                           </label>
                           <input
@@ -651,7 +675,7 @@ const Login = () => {
                     <form>
                       <div className="mb-3">
                         <div className="mb-3">
-                          <label className="form-label" for="city">
+                          <label className="form-label" htmlFor="city">
                             <strong>PCD Register Date</strong>
                           </label>
                           <input

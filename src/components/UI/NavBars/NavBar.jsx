@@ -4,10 +4,10 @@ import styles from "./NavBar.module.css";
 const NavBar = (props) => {
   return (
     <Fragment>
-      <nav classNameName="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+      <nav className="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
         <div className="container-fluid">
           <button
-            classNameName="btn btn-link d-md-none rounded-circle me-3"
+            className="btn btn-link d-md-none rounded-circle me-3"
             id="sidebarToggleTop"
             type="button"
           >
@@ -15,7 +15,7 @@ const NavBar = (props) => {
           </button>
           <form className="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
             <div className="input-group">
-              <input
+              {/* <input
                 className="bg-light form-control border-0 small"
                 type="text"
                 placeholder="Search for ..."
@@ -23,11 +23,11 @@ const NavBar = (props) => {
                 <button className="btn btn-primary py-0" type="button">
                   <i className="fas fa-search"></i>
                 </button>
-              </input>
+              </input> */}
             </div>
           </form>
           <ul className="navbar-nav flex-nowrap ms-auto">
-            <li classNameName="nav-item dropdown d-sm-none no-arrow">
+            <li className="nav-item dropdown d-sm-none no-arrow">
               <a
                 className="dropdown-toggle nav-link"
                 aria-expanded="false"

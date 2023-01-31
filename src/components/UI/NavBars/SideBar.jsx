@@ -5,54 +5,54 @@ const SideBar = (props) => {
   return (
     <Fragment>
       <nav
-        class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0"
+        className="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0"
         style={{ background: "var(--bs-red)", color: "var(--bs-green)" }}
       >
-        <div class="container-fluid d-flex flex-column p-0">
+        <div className="container-fluid d-flex flex-column p-0">
           <img
-            class="rounded-circle mb-3 mt-4"
+            className="rounded-circle mb-3 mt-4"
             src="assets/img/clipboard-image-4.png"
             width="94"
             height="94"
             style={{ background: "#ffffff", width: "45%", height: "45%" }}
             alt="logo"
           />
-          <div class="align-items-xl-center"></div>
-          <hr class="sidebar-divider my-0" />
-          <ul class="navbar-nav text-light" id="accordionSidebar">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">
-                <i class="fas fa-tachometer-alt"></i>
+          <div className="align-items-xl-center"></div>
+          <hr className="sidebar-divider my-0" />
+          <ul className="navbar-nav text-light" id="accordionSidebar">
+            <li className="nav-item">
+              <a className="nav-link" href="index.html">
+                <i className="fas fa-tachometer-alt"></i>
                 <span>Dashboard</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link active"
+                className="nav-link active"
                 href="profile.html"
                 style={{ color: "var(--bs-accordion-bg)" }}
               >
-                <i class="fas fa-user"></i>
+                <i className="fas fa-user"></i>
                 <span>Profile</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="table.html">
-                <i class="fas fa-table"></i>
+            <li className="nav-item">
+              <a className="nav-link" href="table.html">
+                <i className="fas fa-table"></i>
                 <span>Lineage</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">
-                <i class="far fa-user-circle"></i>
+            <li className="nav-item">
+              <a className="nav-link" href="login.html">
+                <i className="far fa-user-circle"></i>
                 <span>Logout</span>
               </a>
             </li>
-            <li class="nav-item"></li>
+            <li className="nav-item"></li>
           </ul>
-          <div class="text-center d-none d-md-inline">
+          <div className="text-center d-none d-md-inline">
             <button
-              class="btn rounded-circle border-0"
+              className="btn rounded-circle border-0"
               id="sidebarToggle"
               type="button"
             ></button>
