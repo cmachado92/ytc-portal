@@ -1,22 +1,27 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { fetchLoginToken } from "../../../api/api";
+import APIRequest, { fetchLoginToken } from "../../../api/APIRequest";
 
 const LoginButton = () => {
   const [token, setToken] = useState();
+  const handleDataReceived = (responseData) => {
+    setToken(responseData);
+  };
   const loginRequest = useEffect(() => {
-    fetchLoginToken();
-  });
+    <APIRequest onDataReceived={handleDataReceived}></APIRequest>;
+    alert("sup");
+  }, []);
+
   return (
     <Fragment>
-      <a
+      <button
         className={"btn btn-primary d-block btn-user w-100"}
         style={{ background: "var(--bs-red)", border: "var(--bs-red)" }}
-        onClick={fetchLoginToken()}
+        onClick={loginRequest}
         role="button"
       >
         <span>Token: {token}</span>
         Login
-      </a>
+      </button>
     </Fragment>
   );
 };
