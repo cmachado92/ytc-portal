@@ -1,27 +1,29 @@
-import React, { Fragment, useEffect, useState } from "react";
-import APIRequest, { fetchLoginToken } from "../../../api/APIRequest";
+import React, { Fragment, useState } from "react";
+import APIRequest from "../../../api/APIRequest";
 
 const LoginButton = () => {
-  const [token, setToken] = useState();
+  const [token, setToken] = useState("");
+  const [hasClicked, setHasClicked] = useState(false);
+
   const handleDataReceived = (responseData) => {
     setToken(responseData);
   };
-  const loginRequest = useEffect(() => {
-    <APIRequest onDataReceived={handleDataReceived}></APIRequest>;
-    alert("sup");
-  }, []);
+  const handleClick = () => {
+    setHasClicked(true);
+  };
 
   return (
     <Fragment>
-      <button
+      <span
         className={"btn btn-primary d-block btn-user w-100"}
         style={{ background: "var(--bs-red)", border: "var(--bs-red)" }}
-        onClick={loginRequest}
+        onClick={handleClick}
         role="button"
       >
-        <span>Token: {token}</span>
         Login
-      </button>
+      </span>
+      {hasClicked && <APIRequest onDataReceived={handleDataReceived} />}
+      <p>Token: {token}</p>
     </Fragment>
   );
 };

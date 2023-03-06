@@ -4,6 +4,7 @@ import imgLoginBanner from "../assets/img/login-banner.png";
 import imgLogo from "../assets/img/ytc-logo.png";
 
 const Login = () => {
+  console.log("test1");
   return (
     <Fragment>
       <div className="container">
