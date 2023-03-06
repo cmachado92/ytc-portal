@@ -1,10 +1,46 @@
-import React, { Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import LoginButton from "../components/UI/Login/LoginButton";
+import APIRequest from "../api/APIRequest";
 import imgLoginBanner from "../assets/img/login-banner.png";
 import imgLogo from "../assets/img/ytc-logo.png";
 
 const Login = () => {
-  console.log("test1");
+  const [formData, setFormData] = useState({
+    username: "",
+    password: "",
+    isRememberMe: false,
+  });
+  const [isLoggedIn, setisLoggedIn] = useState(false);
+  const [token, setToken] = useState("");
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSendRequest = async () => {
+    try {
+      const token = await APIRequest({
+        username: formData.username,
+        password: formData.password,
+      });
+
+      setToken(token);
+      setisLoggedIn(true);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const handleDataReceived = (responseData) => {
+    if (responseData != null && responseData) {
+      token(responseData);
+    }
+  };
+
   return (
     <Fragment>
       <div className="container">
@@ -46,8 +82,9 @@ const Login = () => {
                             type="text"
                             aria-describedby="userHelp"
                             placeholder="Enter username"
-                            name="email"
+                            name="username"
                             autoFocus
+                            onChange={handleInputChange}
                           />
                         </div>
                         <div className="mb-3">
@@ -57,6 +94,7 @@ const Login = () => {
                             type="password"
                             placeholder="Password"
                             name="password"
+                            onChange={handleInputChange}
                             required
                           />
                         </div>
@@ -77,7 +115,8 @@ const Login = () => {
                             </div>
                           </div>
                         </div>
-                        <LoginButton />
+                        <LoginButton onClick={handleSendRequest} />
+                        <span>Token: {token}</span>
                       </form>
                     </div>
                   </div>
