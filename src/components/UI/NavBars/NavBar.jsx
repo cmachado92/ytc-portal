@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import profileImage from "../../../assets/img/sample-person.png";
 // import styles from "./NavBar.module.css";
 
 const NavBar = (props) => {
@@ -71,7 +72,7 @@ const NavBar = (props) => {
                   </span>
                   <img
                     className="border rounded-circle img-profile"
-                    src="assets/img/ytc-circular-logo.png"
+                    src={profileImage}
                     alt="logo"
                   ></img>
                 </a>

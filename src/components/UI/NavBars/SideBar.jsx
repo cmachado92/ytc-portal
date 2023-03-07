@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import styles from "./SideBar.module.css";
+import logoImage from "../../../assets/img/ytc-circular-logo.png";
 
 const SideBar = (props) => {
   return (
@@ -11,7 +12,7 @@ const SideBar = (props) => {
         <div className="container-fluid d-flex flex-column p-0">
           <img
             className="rounded-circle mb-3 mt-4"
-            src="assets/img/clipboard-image-4.png"
+            src={logoImage}
             width="94"
             height="94"
             style={{ background: "#ffffff", width: "45%", height: "45%" }}
