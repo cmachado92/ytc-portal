@@ -3,6 +3,10 @@ import React, { useState, useEffect } from "react";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import "./assets/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   const [isLoggedIn, setisLoggedIn] = useState(false);
@@ -14,6 +18,7 @@ const App = () => {
     if (token) {
       setisLoggedIn(true);
     }
+    AOS.init();
   }, []);
 
   return (

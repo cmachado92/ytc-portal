@@ -1,9 +1,12 @@
 import React from "react";
 import NavBar from "../components/UI/NavBars/NavBar";
 import SideBar from "../components/UI/NavBars/SideBar";
-const Login = () => {
+import styles from "./Profile.module.css";
+// import "../assets/js/theme";
+
+const Profile = () => {
   return (
-    <div id="wrapper">
+    <div className={styles.wrapper}>
       <SideBar />
       <div className="d-flex flex-column" id="content-wrapper">
         <div id="content">
@@ -714,4 +717,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Profile;

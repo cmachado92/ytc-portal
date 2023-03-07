@@ -45,10 +45,10 @@ window.bootstrap = bootstrap;
 
   // Prevent the content wrapper from scrolling when the fixed side navigation hovered over
 
-  var fixedNaigation = document.querySelector("body.fixed-nav .sidebar");
+  var fixedNavigation = document.querySelector("body.fixed-nav .sidebar");
 
-  if (fixedNaigation) {
-    fixedNaigation.on("mousewheel DOMMouseScroll wheel", function (e) {
+  if (fixedNavigation) {
+    fixedNavigation.on("mousewheel DOMMouseScroll wheel", function (e) {
       var vw = Math.max(
         document.documentElement.clientWidth || 0,
         window.innerWidth || 0
