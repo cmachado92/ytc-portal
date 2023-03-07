@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from "react";
 import LoginButton from "../components/UI/Login/LoginButton";
-import APIRequest from "../api/APIRequest";
+import { APIRequest, APILogin } from "../api/APIRequest";
+import Cookies from "js-cookie";
 import imgLoginBanner from "../assets/img/login-banner.png";
 import imgLogo from "../assets/img/ytc-logo.png";
 
@@ -21,15 +22,31 @@ const Login = () => {
     });
   };
 
-  const handleSendRequest = async () => {
+  const handleLogIn = async () => {
+    if (!formData.username || !formData.password) return;
     try {
-      const token = await APIRequest({
+      const token = await APILogin({
         username: formData.username,
         password: formData.password,
       });
 
+      // store token in local storage
+      localStorage.setItem("ytctoken", token);
+      localStorage.setItem("ytctokenTS", Date.now);
+
+      //remember me
+      if (formData.isRememberMe) {
+        Cookies.set("ytcusername", formData.username);
+        Cookies.set("ytcpassword", formData.password);
+      }
+
       setToken(token);
       setisLoggedIn(true);
+      // try {
+      //   const token = await APILogin({
+      //     username: formData.username,
+      //     password: formData.password,
+      //   });
     } catch (error) {
       console.error(error);
     }
@@ -105,6 +122,13 @@ const Login = () => {
                                 id="formCheck-1"
                                 className="form-check-input custom-control-input"
                                 type="checkbox"
+                                checked={formData.isRememberMe}
+                                onChange={(event) =>
+                                  setFormData({
+                                    ...formData,
+                                    isRememberMe: event.target.checked,
+                                  })
+                                }
                               />
                               <label
                                 className="form-check-label custom-control-label"
@@ -115,7 +139,7 @@ const Login = () => {
                             </div>
                           </div>
                         </div>
-                        <LoginButton onClick={handleSendRequest} />
+                        <LoginButton onClick={handleLogIn} />
                         <span>Token: {token}</span>
                       </form>
                     </div>
